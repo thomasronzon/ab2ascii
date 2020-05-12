@@ -1,0 +1,20 @@
+AmigaBASIC->ASCII revision history
+(current version: 2.0)
+
+--- May 2020
+Port to Linux and change of the Makefile to handle AmigaDOS and Linux
+
+--- Jan 1994
+Complete revision of the original ab2ascii by Stefan Reisner.
+Several bug fixes in the code symbol handling.
+Now using lookup tables to expand the tokens.
+Conversion will now be performed in one single pass.  (This
+makes it possible to convert through the pipe.)
+Recognition of code line numbering implemented.
+
+Now spread under terms of the GNU Public General License!
+
+--- before Jan 1994
+Stefan Reisner
+sr@ph-cip.uni-koeln.de
+Public Domain
