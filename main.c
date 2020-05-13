@@ -30,6 +30,9 @@
 /* include the version tag */
 #include "version.h"
 
+/* include string operations*/
+#include "string.h"
+
 /* globals */
 
 /* the symbol table */
@@ -280,7 +283,8 @@ int main( int argc, char **argv )
 #ifdef DEBUG
           debuglevel= 1;
 #else
-          echo("not compiled w/ a symbol DEBUG defined.  No debugging information available -- Sorry.");
+          //echo("not compiled w/ a symbol DEBUG defined.  No debugging information available -- Sorry.");
+	      printf("not compiled w/ a symbol DEBUG defined.  No debugging information available -- Sorry.");
 #endif
           break;
 
