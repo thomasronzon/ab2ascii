@@ -1,7 +1,7 @@
 # ab2ascii
 Converts AmigaBasic Source-Code-Files to ASCII without orginal AmigaBasic-Installation
 
-ab2ascii reads binary AmigaBASIC sources, expands tokens andsymbols and generates ASCII output.  
+ab2ascii reads binary AmigaBASIC sources, expands tokens and symbols and generates ASCII output.  
 Today there is need for ab2ascii since AmigaBASIC does not run anymore under versions of Kickstart V37+.  
 ab2ascii should do exactly the same as the AmigaBASIC equivalent
 
